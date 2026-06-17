@@ -1,9 +1,18 @@
 #include <stdio.h>
+int sum( int n);
 int main(){
-    int a, b;
-    printf("Enter two number:");
-    scanf("%d %d", &a &b);
-
-    printf("sum of those numbers: a+b;");
-    return 0;
+int n;
+printf("enter n:");
+scanf("%d", &n);
+printf("Sum of n: %d", sum(n));
+return 0;
+    
+}
+int sum (int n){
+    if (n==1){
+        return 1;
+    }
+    int sumNm1= sum(n-1);
+    int sumN= sumNm1 + n;
+    return sumN;
 }
