@@ -1,0 +1,5 @@
+01  Ragani CSE  8.900000
+50  Yash CSE  8.170000
+60  Anshu CSE  8.700000
+06	Gyan	CSE	8.200000	
+37	Roushani	CSE	8.430000	
